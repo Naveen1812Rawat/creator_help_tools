@@ -104,4 +104,4 @@ def download_stream(video_id: str, stream_url: str) -> str:
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="www.creator_help_tools.com", port=4910)
+    uvicorn.run(app, host="13.228.225.19", port=4910)
