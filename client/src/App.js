@@ -20,7 +20,7 @@ function App() {
     setMessage('');
 
     try {
-      const response = await fetch(`127.0.0.1:8000/download/?url=${url}`);
+      const response = await fetch(`https://creator-help-tools.onrender.com/download/?url=${url}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
